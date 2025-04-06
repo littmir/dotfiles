@@ -44,6 +44,7 @@ unset rc
     alias ip="ip -c"
     alias mv="mv -i"
     alias untar="tar -zxvf"
+    alias diff="diff -ruN --color"
 
     alias ..="cd ../"
     alias ~="cd ~/"
