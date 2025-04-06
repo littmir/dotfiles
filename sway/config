@@ -256,6 +256,10 @@ bindsym $mod+Shift+KP_8 move container to workspace number 8
 bindsym $mod+Shift+KP_9 move container to workspace number 9
 bindsym $mod+Shift+KP_0 move container to workspace number 10
 
+### move focused workspace between monitors
+bindsym $mod+Ctrl+Right move workspace to output right
+bindsym $mod+Ctrl+Left move workspace to output left
+
 ###
 bindsym $mod+b workspace prev_on_output
 bindsym $mod+n workspace next_on_output
