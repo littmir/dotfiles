@@ -291,4 +291,7 @@ for_window [app_id="org.telegram.desktop._da4188181c9d84f847b61f980af5fa3a"] flo
 for_window [app_id="guake"] floating enable, move position 0 0, border none
 bindsym $mod+z exec guake
 
+### logout ###
+# bindsym $mod+x exit
+
 include /etc/sway/config.d/*
