@@ -31,7 +31,10 @@ unset rc
         . ~/.bash_aliases
     fi
 
-    export EDITOR='/usr/bin/subl'
+    # https://www.reddit.com/r/linux4noobs/comments/jkvoyo/how_to_logout_via_command_prompt/?rdt=33488
+    alias logout="loginctl terminate-user littmir"
+
+    export EDITOR='/usr/bin/subl -n'
     alias s="$EDITOR -n"
     alias subl="subl -n"
 
