@@ -1,0 +1,40 @@
+{
+  "clangd.arguments": [
+    "--compile-commands-dir=build",
+    "--clang-tidy",
+    "--header-insertion=iwyu"
+  ],
+
+  "chat.disableAIFeatures": true,
+
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "off",
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "editor.mouseWheelZoom": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": true,
+  "editor.showUnused": true,
+  "editor.rulers": [80],
+  "editor.inlayHints.enabled": "off",
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+
+  "remote.downloadExtensionsLocally": true,
+
+  "telemetry.editStats.enabled": false,
+  "telemetry.feedback.enabled": false,
+  "telemetry.telemetryLevel": "off",
+
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.copyOnSelection": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#ff40e64b"
+  },
+}
